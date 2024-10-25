@@ -55,7 +55,7 @@ const KanbanBoard: React.FC = () => {
   };
 
   return (
-    <div className="grid lg:grid-cols-3  sm:grid-cols-1 gap-2 p-1 h-screen">
+    <div className="grid lg:grid-cols-3  sm:grid-cols-1 gap-2 p-1 lg:h-screen sm:h-[50vh]">
       {['TODO', 'DOING', 'DONE'].map((status) => (
         <div key={status} className="bg-gray-300 p-4 h-full">
           <h2 className="text-xl font-bold text-black mb-4">{status}</h2>
