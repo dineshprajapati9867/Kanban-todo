@@ -1,1 +1,1 @@
-
+The Kanban drag-and-drop feature allows users to efficiently manage tasks by visually organizing them on a board. Users can create, edit, and delete tasks in various columns representing different stages of a project,
